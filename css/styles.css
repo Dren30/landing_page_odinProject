@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .dark-blue {
     background-color: #1f2937;
 }
+
 
 .hero-logo-nav {
     display: flex;
@@ -14,6 +17,12 @@
     width: 1000px;
     margin: 0 auto;
     align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    
 }
 
 .nav-tab {
@@ -42,11 +51,6 @@ a:visited {
 
 .nav-tab ul li{
     display: inline;
-}
-.logo-text {
-    font-size: 24px;
-    color: #f9faf8;
-    
 }
 
 .sign-up {
@@ -89,7 +93,7 @@ a:visited {
 }
 
 .pc-img {
-    width: 600px;
+    width: 550px;
     height: 230px;
 }
 
