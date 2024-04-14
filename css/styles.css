@@ -159,13 +159,35 @@ a:visited {
 }
 
 .call-to-action {
-    width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
     display: flex;
+    flex-direction: row;
+}
+
+.call-to-action-square{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 110px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+    
 }
+
+.call-to-action-text1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.call-to-action-text2 {
+    font-size: 19px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
 
 
 
